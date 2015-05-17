@@ -187,7 +187,7 @@
           if (typeof window.localStorage !== "undefined") {
             window.localStorage.sunset_watch_options = ls_pto;
           }
-          var location = "pebblejs://close#" + encodeURIComponent(ls_pto);
+          var location = "return_to", "pebblejs://close#" + encodeURIComponent(ls_pto);
           console.log("Warping to: " + location);
           console.log(location);
           document.location = location;
